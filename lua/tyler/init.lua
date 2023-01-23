@@ -1,4 +1,2 @@
-require("tyler.remap")
 require("tyler.set")
-
-
+require("tyler.remap")

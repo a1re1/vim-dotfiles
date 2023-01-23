@@ -7,6 +7,7 @@ lsp.ensure_installed({
   'eslint',
   'sumneko_lua',
   'rust_analyzer',
+  'jdtls',
 })
 
 local cmp = require('cmp')
@@ -16,6 +17,18 @@ local cmp_mappings = lsp.defaults.cmp_mappings({
   ['<C-n>'] = cmp.mapping.select_next_item(cmp_select),
   ['<C-y>'] = cmp.mapping.confirm({ select = true }),
   ['<C-space>'] = cmp.mapping.complete(),
+})
+
+lsp.set_preferences({
+  suggest_ls_servers = true,
+  configure_diagnostics = true,
+  sign_icons = {
+    error = '✘',
+    warn = '▲',
+    hint = '⚑',
+    info = ''
+  },
+  cmp_capabilities = true
 })
 
 lsp.setup_nvim_cmp({
@@ -33,7 +46,28 @@ lsp.on_attach(function(client, bufnr)
 	vim.keymap.set("n", "<leader>vca", function() vim.lsp.buf.code_action() end, opts)
 	vim.keymap.set("n", "<leader>vrr", function() vim.lsp.buf.references() end, opts)
 	vim.keymap.set("n", "<leader>vrn", function() vim.lsp.buf.rename() end, opts)
-	vim.keymap.set("n", "<C-h>", function() vim.lsp.buf.signature_help() end, opts)
+	vim.keymap.set("n", "<C-b>", function() vim.lsp.buf.signature_help() end, opts)
 end)
 
 lsp.setup()
+
+local config = {
+  cmd = {'/Users/twhitehurst/jdtls-1.9.0/bin/jdtls'},
+  root_dir = vim.fs.dirname(vim.fs.find({'.gradlew', '.git', 'mvnw'}, { upward = true })[1]),
+  settings = {
+    java = {
+      configuration = {
+        -- See https://github.com/eclipse/eclipse.jdt.ls/wiki/Running-the-JAVA-LS-server-from-the-command-line#initialize-request
+        -- And search for `interface RuntimeOption`
+        -- The `name` is NOT arbitrary, but must match one of the elements from `enum ExecutionEnvironment` in the link above
+        runtimes = {
+          {
+            name = "JavaSE-17",
+            path = "/opt/homebrew/opt/openjdk@17/bin/java",
+          },
+        }
+      }
+    }
+  }
+}
+require('jdtls').start_or_attach(config)
