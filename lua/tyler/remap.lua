@@ -39,3 +39,6 @@ vim.keymap.set("n", "<C-x>", "<cmd>vertical resize -10<CR>");
 vim.keymap.set("n", "<C-z>", "<cmd>vertical resize +10<CR>");
 vim.keymap.set("n", "<C-a>", "<cmd>resize -10<CR>");
 vim.keymap.set("n", "<C-s>", "<cmd>resize +10<CR>");
+
+vim.keymap.set("v", "<C-g>", "<cmd>'<,'>OpenGithubFile<CR>")
+vim.keymap.set("n", "<C-g>", "<cmd>'<,'>OpenGithubFile<CR>")

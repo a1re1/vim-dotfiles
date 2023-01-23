@@ -68,4 +68,7 @@ return require('packer').startup(function(use)
 
   use('p00f/nvim-ts-rainbow')
 
+  use('tyru/open-browser.vim')
+  use('tyru/open-browser-github.vim')
+
 end)
