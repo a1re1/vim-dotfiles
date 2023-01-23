@@ -22,10 +22,14 @@ return require('packer').startup(function(use)
 	})
 
 	use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
-	use('nvim-treesitter/playground')
-	use('theprimeagen/harpoon')
-	use('mbbill/undotree')
-	use('tpope/vim-fugitive')
+
+  use('nvim-treesitter/playground')
+
+  use('theprimeagen/harpoon')
+
+  use('mbbill/undotree')
+
+  use('tpope/vim-fugitive')
 
 	use {
 		'VonHeikemen/lsp-zero.nvim',
@@ -49,5 +53,19 @@ return require('packer').startup(function(use)
 			{'rafamadriz/friendly-snippets'}, -- Optional
 		}
 	}
+
+  use {
+    'nvim-lualine/lualine.nvim',
+    requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+  }
+
+  use {
+    "windwp/nvim-autopairs",
+    config = function() require("nvim-autopairs").setup {} end
+  }
+
+  use('tpope/vim-commentary')
+
+  use('p00f/nvim-ts-rainbow')
 
 end)
