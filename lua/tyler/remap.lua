@@ -40,3 +40,4 @@ vim.keymap.set("n", "<C-s>", "<cmd>resize +10<CR>");
 
 vim.keymap.set("v", "<C-g>", "<cmd>'<,'>OpenGithubFile<CR>")
 vim.keymap.set("n", "<C-g>", "<cmd>'<,'>OpenGithubFile<CR>")
+vim.keymap.set("n", "<C-l>", "<cmd>CHADopen<CR>")
