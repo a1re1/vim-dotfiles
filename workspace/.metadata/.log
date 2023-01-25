@@ -1,0 +1,199 @@
+!SESSION 2023-01-24 20:32:22.591 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.6
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_US
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:23.037
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:23.106
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:23.123
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:23.124
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:23.128
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:23.129
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:23.130
+!MESSAGE Wait for AutoBuildOffJob start
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:23.131
+!MESSAGE Wait for AutoBuildOffJob end 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:23.131
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:23.131
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:23.131
+!MESSAGE ProjectRegistryRefreshJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:23.131
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:23.137
+!MESSAGE Started org.eclipse.buildship.core 6ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:24.236
+!MESSAGE LoadingGradleVersionJob finished 1099ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:24.247
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:24.249
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:24.309
+!MESSAGE Default VM Install changed from  null to net.java.openjdk.jdk-/opt/homebrew/Cellar/openjdk@17/17.0.6/libexec/openjdk.jdk/Contents/Home
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:24.312
+!MESSAGE defaultVMInstallChanged -> force update of jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:24.340
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:24.588
+!MESSAGE Workspace initialized in 351ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:24.621
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:24.622
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:24.631
+!MESSAGE Invalid runtime: JavaEnvironment [name=JavaSE-17, path=/opt/homebrew/opt/openjdk@17/bin/java, javadoc=null, sources=null]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:24.631
+!MESSAGE >> New configuration: {java={signature_help={enabled=true}, configuration={runtimes=[{name=JavaSE-17, path=/opt/homebrew/opt/openjdk@17/bin/java}]}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:24.631
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:24.632
+!MESSAGE Invalid runtime: JavaEnvironment [name=JavaSE-17, path=/opt/homebrew/opt/openjdk@17/bin/java, javadoc=null, sources=null]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:24.632
+!MESSAGE >> New configuration: {java={signature_help={enabled=true}, configuration={runtimes=[{name=JavaSE-17, path=/opt/homebrew/opt/openjdk@17/bin/java}]}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:24.633
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:24.757
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:24.760
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:24.761
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:41.068
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:41.086
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:41.087
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:41.090
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2023-01-24 20:32:43.628 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.6
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_US
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:44.128
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:44.196
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:44.209
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:44.210
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:44.214
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:44.214
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:44.216
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:44.216
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:44.217
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:44.217
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:44.221
+!MESSAGE Started org.eclipse.buildship.core 4ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:44.234
+!MESSAGE LoadingGradleVersionJob finished 13ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:44.241
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:44.465
+!MESSAGE Workspace initialized in 230ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:44.483
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:44.484
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:44.489
+!MESSAGE Invalid runtime: JavaEnvironment [name=JavaSE-17, path=/opt/homebrew/opt/openjdk@17/bin/java, javadoc=null, sources=null]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:44.489
+!MESSAGE >> New configuration: {java={configuration={runtimes=[{path=/opt/homebrew/opt/openjdk@17/bin/java, name=JavaSE-17}]}, signature_help={enabled=true}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:44.489
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:44.490
+!MESSAGE Invalid runtime: JavaEnvironment [name=JavaSE-17, path=/opt/homebrew/opt/openjdk@17/bin/java, javadoc=null, sources=null]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:44.490
+!MESSAGE >> New configuration: {java={configuration={runtimes=[{path=/opt/homebrew/opt/openjdk@17/bin/java, name=JavaSE-17}]}, signature_help={enabled=true}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:44.497
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:44.498
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:32:44.499
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:33:36.158
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:33:36.177
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:33:36.181
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-01-24 20:33:36.186
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

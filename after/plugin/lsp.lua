@@ -52,7 +52,7 @@ end)
 lsp.setup()
 
 local config = {
-  cmd = {'/Users/twhitehurst/jdtls-1.9.0/bin/jdtls'},
+  cmd = {'/Users/tyler/jdtls-1.9.0/bin/jdtls'},
   root_dir = vim.fs.dirname(vim.fs.find({'.gradlew', '.git', 'mvnw'}, { upward = true })[1]),
   settings = {
     java = {
