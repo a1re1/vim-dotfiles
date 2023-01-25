@@ -98,4 +98,7 @@ return require('packer').startup(function(use)
 
   use 'xiyaowong/nvim-transparent'
 
+  use 'ThePrimeagen/git-worktree.nvim'
+
+
 end)

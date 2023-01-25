@@ -114,6 +114,11 @@ _G.packer_plugins = {
     path = "/Users/twhitehurst/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  ["git-worktree.nvim"] = {
+    loaded = true,
+    path = "/Users/twhitehurst/.local/share/nvim/site/pack/packer/start/git-worktree.nvim",
+    url = "https://github.com/ThePrimeagen/git-worktree.nvim"
+  },
   harpoon = {
     loaded = true,
     path = "/Users/twhitehurst/.local/share/nvim/site/pack/packer/start/harpoon",
@@ -206,7 +211,7 @@ _G.packer_plugins = {
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   sonokai = {
-    config = { "\27LJ\2\n∆\1\0\0\5\0\v\0\0256\0\0\0\14\0\0\0X\1\1Ä'\0\1\0007\0\0\0006\0\2\0009\0\3\0009\0\4\0006\2\0\0B\0\2\0016\0\2\0009\0\5\0009\0\6\0)\2\0\0'\3\a\0005\4\b\0B\0\4\0016\0\2\0009\0\5\0009\0\6\0)\2\0\0'\3\t\0005\4\n\0B\0\4\1K\0\1\0\1\0\1\abg\tnone\16NormalFloat\1\0\1\abg\tnone\vNormal\16nvim_set_hl\bapi\16colorscheme\bcmd\bvim\fsonokai\ncolor\0" },
+    config = { "\27LJ\2\nU\0\0\3\0\5\0\v6\0\0\0\14\0\0\0X\1\1Ä'\0\1\0007\0\0\0006\0\2\0009\0\3\0009\0\4\0006\2\0\0B\0\2\1K\0\1\0\16colorscheme\bcmd\bvim\fsonokai\ncolor\0" },
     loaded = true,
     path = "/Users/twhitehurst/.local/share/nvim/site/pack/packer/start/sonokai",
     url = "https://github.com/sainnhe/sonokai"
@@ -245,14 +250,14 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: sonokai
-time([[Config for sonokai]], true)
-try_loadstring("\27LJ\2\n∆\1\0\0\5\0\v\0\0256\0\0\0\14\0\0\0X\1\1Ä'\0\1\0007\0\0\0006\0\2\0009\0\3\0009\0\4\0006\2\0\0B\0\2\0016\0\2\0009\0\5\0009\0\6\0)\2\0\0'\3\a\0005\4\b\0B\0\4\0016\0\2\0009\0\5\0009\0\6\0)\2\0\0'\3\t\0005\4\n\0B\0\4\1K\0\1\0\1\0\1\abg\tnone\16NormalFloat\1\0\1\abg\tnone\vNormal\16nvim_set_hl\bapi\16colorscheme\bcmd\bvim\fsonokai\ncolor\0", "config", "sonokai")
-time([[Config for sonokai]], false)
 -- Config for: nvim-autopairs
 time([[Config for nvim-autopairs]], true)
 try_loadstring("\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
 time([[Config for nvim-autopairs]], false)
+-- Config for: sonokai
+time([[Config for sonokai]], true)
+try_loadstring("\27LJ\2\nU\0\0\3\0\5\0\v6\0\0\0\14\0\0\0X\1\1Ä'\0\1\0007\0\0\0006\0\2\0009\0\3\0009\0\4\0006\2\0\0B\0\2\1K\0\1\0\16colorscheme\bcmd\bvim\fsonokai\ncolor\0", "config", "sonokai")
+time([[Config for sonokai]], false)
 -- Config for: trouble.nvim
 time([[Config for trouble.nvim]], true)
 try_loadstring("\27LJ\2\nK\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\1\rposition\nright\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")
