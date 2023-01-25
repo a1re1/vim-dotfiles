@@ -14,11 +14,12 @@ return require('packer').startup(function(use)
 	}
 
 	use({
-		'rose-pine/neovim',
-		as = 'rose-pine',
+		'sainnhe/sonokai',
+		as = 'sonokai',
 		config = function()
-			vim.cmd('colorscheme rose-pine')
-		end
+      color = color or "sonokai"
+      vim.cmd.colorscheme(color)
+    end
 	})
 
 	use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
@@ -92,5 +93,9 @@ return require('packer').startup(function(use)
   use 'mfussenegger/nvim-dap'
 
   use 'ms-jpq/chadtree'
+
+  use 'a1re1/vim-browser-search'
+
+  use 'xiyaowong/nvim-transparent'
 
 end)

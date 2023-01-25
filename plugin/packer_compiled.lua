@@ -165,6 +165,11 @@ _G.packer_plugins = {
     path = "/Users/twhitehurst/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
+  ["nvim-transparent"] = {
+    loaded = true,
+    path = "/Users/twhitehurst/.local/share/nvim/site/pack/packer/start/nvim-transparent",
+    url = "https://github.com/xiyaowong/nvim-transparent"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/Users/twhitehurst/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
@@ -200,11 +205,11 @@ _G.packer_plugins = {
     path = "/Users/twhitehurst/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
-  ["rose-pine"] = {
-    config = { "\27LJ\2\n9\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\bvim\0" },
+  sonokai = {
+    config = { "\27LJ\2\n∆\1\0\0\5\0\v\0\0256\0\0\0\14\0\0\0X\1\1Ä'\0\1\0007\0\0\0006\0\2\0009\0\3\0009\0\4\0006\2\0\0B\0\2\0016\0\2\0009\0\5\0009\0\6\0)\2\0\0'\3\a\0005\4\b\0B\0\4\0016\0\2\0009\0\5\0009\0\6\0)\2\0\0'\3\t\0005\4\n\0B\0\4\1K\0\1\0\1\0\1\abg\tnone\16NormalFloat\1\0\1\abg\tnone\vNormal\16nvim_set_hl\bapi\16colorscheme\bcmd\bvim\fsonokai\ncolor\0" },
     loaded = true,
-    path = "/Users/twhitehurst/.local/share/nvim/site/pack/packer/start/rose-pine",
-    url = "https://github.com/rose-pine/neovim"
+    path = "/Users/twhitehurst/.local/share/nvim/site/pack/packer/start/sonokai",
+    url = "https://github.com/sainnhe/sonokai"
   },
   ["telescope.nvim"] = {
     loaded = true,
@@ -222,6 +227,11 @@ _G.packer_plugins = {
     path = "/Users/twhitehurst/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
   },
+  ["vim-browser-search"] = {
+    loaded = true,
+    path = "/Users/twhitehurst/.local/share/nvim/site/pack/packer/start/vim-browser-search",
+    url = "https://github.com/a1re1/vim-browser-search"
+  },
   ["vim-commentary"] = {
     loaded = true,
     path = "/Users/twhitehurst/.local/share/nvim/site/pack/packer/start/vim-commentary",
@@ -235,6 +245,10 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: sonokai
+time([[Config for sonokai]], true)
+try_loadstring("\27LJ\2\n∆\1\0\0\5\0\v\0\0256\0\0\0\14\0\0\0X\1\1Ä'\0\1\0007\0\0\0006\0\2\0009\0\3\0009\0\4\0006\2\0\0B\0\2\0016\0\2\0009\0\5\0009\0\6\0)\2\0\0'\3\a\0005\4\b\0B\0\4\0016\0\2\0009\0\5\0009\0\6\0)\2\0\0'\3\t\0005\4\n\0B\0\4\1K\0\1\0\1\0\1\abg\tnone\16NormalFloat\1\0\1\abg\tnone\vNormal\16nvim_set_hl\bapi\16colorscheme\bcmd\bvim\fsonokai\ncolor\0", "config", "sonokai")
+time([[Config for sonokai]], false)
 -- Config for: nvim-autopairs
 time([[Config for nvim-autopairs]], true)
 try_loadstring("\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
@@ -243,10 +257,6 @@ time([[Config for nvim-autopairs]], false)
 time([[Config for trouble.nvim]], true)
 try_loadstring("\27LJ\2\nK\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\1\rposition\nright\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")
 time([[Config for trouble.nvim]], false)
--- Config for: rose-pine
-time([[Config for rose-pine]], true)
-try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\bvim\0", "config", "rose-pine")
-time([[Config for rose-pine]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
