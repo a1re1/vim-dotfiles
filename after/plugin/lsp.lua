@@ -5,8 +5,8 @@ lsp.ensure_installed({
   -- Replace these with whatever servers you want to install
   'tsserver',
   'eslint',
-  'lua-language-server',
-  'elixir-ls',
+  'lua_ls',
+  'elixir_ls',
   'rust_analyzer',
 })
 
