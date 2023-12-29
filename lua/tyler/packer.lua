@@ -102,7 +102,7 @@ return require('packer').startup(function(use)
 
   use 'mfussenegger/nvim-dap'
 
-  use 'ms-jpq/chadtree'
+  use 'nvim-tree/nvim-tree.lua'
 
   use 'a1re1/vim-browser-search'
 
