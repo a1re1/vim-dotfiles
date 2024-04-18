@@ -197,7 +197,6 @@ return {
         "prettierd",
         "pyright",
         "rust-analyzer",
-        "tailwind-css-language-server",
         "taplo",
         "typescript-language-server",
       },
