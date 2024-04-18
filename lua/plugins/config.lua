@@ -182,7 +182,6 @@ return {
         "bash-language-server",
         "checkstyle",
         "eslint-lsp",
-        "eslint-d",
         "golangci-lint-langserver",
         "gopls",
         "java-debug-adapter",
